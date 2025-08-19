@@ -1,20 +1,23 @@
 # Pinecone-pdf-vectorstore-project
-# PDF Semantic Search with Pinecone and Gemini LLM
+
+# 📄 PDF Semantic Search with Pinecone & Gemini LLM
+
+**Author:** Meena M 👩‍💻
 
 This project demonstrates **semantic search on PDF documents** using **Gemini LLM** and **Pinecone vector database**. It loads PDFs, converts text into vector embeddings, stores them in Pinecone, and enables intelligent retrieval using LLM-powered queries.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Load multiple PDFs from a directory using `PyPDFDirectoryLoader`
-- Split text into manageable chunks with `RecursiveCharacterTextSplitter`
-- Store vector embeddings in **Pinecone VectorStore**
-- Query documents semantically using **Gemini LLM**
+- 📂 Load multiple PDFs from a directory using `PyPDFDirectoryLoader`
+- ✂️ Split text into manageable chunks with `RecursiveCharacterTextSplitter`
+- 🗄️ Store vector embeddings in **Pinecone VectorStore**
+- 🤖 Query documents semantically using **Gemini LLM**
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Python**  
 - **PyPDFDirectoryLoader** – for PDF ingestion  
@@ -24,7 +27,12 @@ This project demonstrates **semantic search on PDF documents** using **Gemini LL
 
 ---
 
-## Installation
+## ⚡ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/pdf-semantic-search-pinecone.git
+cd pdf-semantic-search-pinecone
 
 # Create a virtual environment
 python -m venv venv
@@ -33,9 +41,3 @@ venv\Scripts\activate      # Windows
 
 # Install dependencies
 pip install -r requirements.txt
-
-Contribution
-
-Contributions are welcome! Please open an issue or submit a pull request for improvements.
-
-
